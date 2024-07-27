@@ -1,0 +1,15 @@
+dick = {'Vasya': 1975,'Egor': 1999,'Masha': 2000}
+print(dick)
+print(dick["Vasya"])
+print(dick.get("Alex"))
+dick.update({'Kamila': 1981, 'Artem': 1915})
+print(dick)
+a = dick.pop('Egor')
+print(a)
+print(dick)
+set =  {1,'Яблоко',42,1,1,1,'Яблоко',42,42}
+print(set)
+set.add(337)
+set.add("Груша")
+set.remove(1)
+print(set)
